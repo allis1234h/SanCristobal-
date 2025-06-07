@@ -1,0 +1,618 @@
+*{
+ margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ background-color: rgb(221, 247, 247);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+header {
+  background-color: rgb(22, 22, 22);
+  color: rgb(242, 245, 241);
+  text-align: center;
+  padding: 1.5rem;
+  font-family: 'Georgia', serif;
+}
+
+nav a:hover{
+  background-color:#cdd8ae; 
+  color:rgb(82, 50, 50);             
+  transition:background-color .2s, color .2s; 
+}
+nav{
+display: flex;
+background-color: rgb(209, 208, 165);
+justify-content: center;
+text-align: center;
+font-size: 0.8rem;
+}
+
+nav a{
+padding:1rem;
+text-decoration: none;
+text-align: center;
+color:rgb(15, 15, 15);
+font-weight: bold;
+}
+
+main {
+  background-color: #f5eeee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.divcentral {
+  background-color:#eeebeb;
+ padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 350px; 
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.divcentral p:first-child {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+  color: #000;
+  margin: 0;
+  text-align: center;
+}
+
+.divcentral h3 img {
+  width: 190px;
+  height:160px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(175, 171, 171, 0.15);
+}
+
+.divcentral img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.divcentral p:last-child {
+  font-size: 16px;
+  color: #030000;
+  margin-top: 15px;
+  line-height: 1.4;
+  text-align: justify;
+  font-family: 'Georgia', serif;
+}
+
+footer {
+  background-color: rgb(3, 3, 3);
+  color: rgb(215, 219, 219);
+  text-align: center;
+  padding: 1rem;
+}
+
+nav img {
+width: 24px;
+height: 24px;
+margin-right: 8px;
+}
+
+.Impie {
+width: 30px;
+height: 30px;
+font-size: 1em;
+text-align: center;
+}
+
+@media(max-width:750px){
+ nav{
+flex-direction: column;
+}
+.divicentral{
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px;
+  justify-items: center;
+}
+
+.contenidos {
+  background-color:#eeebeb;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 18px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 340px;
+  height: 380px;
+}
+
+.contenidos h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contenidos p {
+  text-align: justify; 
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+.contenidos h3 img {
+  width: 20px;
+  height: 20px;
+}
+
+.contenidos .img-final {
+  margin-top: 10px;
+  width: 190px;
+  height: 180px;
+  border-radius: 7px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f5eeee;
+  padding-bottom: 1rem;
+}
+
+.divtextoh {
+  background-color: #f5eeee;
+  width: 40rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 14px;
+  font-size: 1.5rem; 
+}
+
+.divih {
+  background-color: #e0e0e0;
+  width: 70rem;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-size: 2rem; 
+}
+
+.divihi img {
+  width: 180px;
+  height: 140px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.divihi {
+  flex: 0 0 auto;
+}
+
+.divhis {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 12px;
+  text-align: justify;
+  background-color: #dcdcdc;
+  font-size: 0.85rem; 
+}
+
+
+.divial{
+background-color: rgba(214, 230, 170, 0.452);
+margin: 1rem;
+width: 30rem;
+text-align: center;
+}
+
+
+.divial img{
+width: 400px;
+height: 500px;
+border-radius: 15px;
+}
+
+.divial img:hover{
+transform:  translateY(+5px);
+} 
+
+.diviam{
+width: 90%;
+margin: 1.5rem;
+text-align: center;
+float: left;
+}
+
+.diviag{
+background-color: rgb(46, 41, 41);
+color: rgb(233, 233, 247);
+width: 90%;
+padding: 1.5rem;
+text-align: center;
+margin: 1.5rem;
+float: left;
+}
+      
+.carousel {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  animation: scroll 18s linear infinite;
+}
+
+.wrap img {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-210%);
+  }
+}
+
+
+.cuadro-vestimenta {
+  width: 480px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.cuadro-vest-mujer {
+  background-color: #ffe6ed;
+}
+
+.cuadro-vest-hombre {
+  background-color: #e3f2ff;
+}
+
+.img-vestimenta {
+  width: 250px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 15px;
+  background-color: white;
+  display: block;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo-vestimenta {
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.texto-vestimenta {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: center;
+}
+
+main {
+  background-color:  #f5eeee; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.titulo-seccion {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Georgia", serif;
+  font-style: oblique 15deg;
+  margin: 30px 0 20px;
+  color: #444;
+  width: 100%;
+  text-align: center;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+  max-width: 960px;
+}
+
+.fila-tarjetas {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 900px;
+}
+
+.fila-tarjetas.festividades-3,
+.fila-tarjetas.tradiciones {
+  max-width: 600px;
+  gap: 40px;
+}
+
+.tarjeta {
+  background-color: #e7e7e7;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px #bbb;
+  width: 280px; 
+  height: 280px;     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.tarjeta img {
+  width: 200px;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.tarjeta p {
+  margin: 10px 0 0;
+  text-align: justify;
+  color: #333;
+  flex-grow: 1;
+}
+
+.tarjeta p:first-of-type {
+  font-weight: bold;
+  font-family: "Georgia", serif;
+  font-style: oblique 15deg;
+  text-align: center;
+  margin-bottom: 10px;  
+}
+.cuadro {
+  background-color: #f7e6d1;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.cuadro img {
+  width: 95%;
+  max-width: 400px;
+  height: 325px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+}
+.cuadro p, .cuadro b {
+  margin: 10px 0 0 0;
+}
+
+.contenedorflora {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 1REM;
+    }
+
+
+    .columna {
+      flex: 1 0 20%; 
+      min-width: 100px;
+      background-color: #f3f6f8;
+      padding: 20px;
+      text-align: justify;
+      border: 1px solid #cff5de;
+    }
+
+ .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  .gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+    .columna:hover{
+    transform:  translateY(-5px);
+}
+contenedorfauna {
+      background: rgb(248, 245, 245);
+      max-width: 900px;
+      width: 100%;
+      border-radius: 25px;
+      box-shadow: 0 25px 40px rgba(0, 0, 0, 0.15);
+      padding: 40px 50px;
+      text-align: center;
+      margin: 1rem;
+    }
+
+
+
+main {
+  max-width: 100;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-style: italic;
+  
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border-radius: 12px;
+  padding: 20px;
+  text-align: justify;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card-1 { background-color: #fff7e6; }
+.card-2 { background-color: #e6f7e6; }
+.card-3 { background-color: #ffe6ec; }
+.card-4 { background-color: #f0fff0; }
+.card-5 { background-color: #fffce6; }
+.card-6 { background-color: #ffffe6; }
+
+.iconito {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.galeria {
+  margin-top: 40px;
+}
+
+.galeria .imagenes img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.img-placeholder {
+  width: 200px;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+.contenedorfauna {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.cuadro-intro {
+  width: 90%;
+  margin: 0 auto 30px auto;
+  background-color: #e8f8f5;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: justify;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-size: 15px;
+}
+
+.cuadro-fauna {
+  width: 100%;
+  margin: 0 auto 30px auto;
+  background-color: #fef9e7;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: justify;
+  font-size: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cuadro-fauna ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cuadro-fauna li::before {
+  content: "• ";
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 20px; 
+  font-style: normal; 
+}
+
+.titulo-div {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-style: normal; 
+}
+
+.contenedor-categorias {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.divcentral {
+ 
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.divcentral img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.divcentral p {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 10px;
+  font-style: normal; 
+}
